@@ -1,13 +1,14 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
+
 /***************/
 /* YOUR STYLES */
 /***************/
 
 /* Color Palette */
 .color-1 {
-   background: #c43c33;
+   background: #cc3333;
    border: none;
 }
 
@@ -17,12 +18,12 @@
 }
 
 .color-3 {
-    background: #babf6c;
+    background: #cccc66;
     border: none;
 }
 
 .color-4 {
-    background: #bfcfff;
+    background: #666666;
     border: none;
 }
 
@@ -60,7 +61,22 @@
 /* Imagery */
 .imagery-1 img {
     border: none;
-    box-shadow: 0 0 10px #333;
+}
+
+.imagery-2 img {
+    border: none;
+}
+
+.imagery-3 img {
+    border: none;
+}
+
+.imagery-4 img {
+    border: none;
+}
+
+.imagery-5 img {
+    border: none;
 }
 
 /* Icons */
@@ -68,6 +84,21 @@
     border: none;
 }
 
+.icon-2 {
+    border: none;
+}
+
+.icon-3 {
+    border: none;
+}
+
+.icon-4 {
+    border: none;
+}
+
+.icon-5 {
+    border: none;
+}
 
 /* Navigation */
 a:link,
@@ -76,17 +107,6 @@ a:visited {
     text-decoration: none;
 }
 
-a:focus {
-    background: red;
-}
-
-a:hover {
-    border-bottom: 2px solid black;
-}
-
-a:active {
-    background: #906d1d;
-}
 
 /* Typography */
 h1 {
