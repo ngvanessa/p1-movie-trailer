@@ -8,6 +8,19 @@
 /*# sourceMappingURL=styles.css.map */
 
 /* Styling */
+
+/* Header */
+
+#header {
+  margin: 10px; padding: 0px;
+  position: relative;
+  background: #ccc;
+  width: 100%; height: 50px;
+  align-content: center;
+
+}
+
+
 body {
     background: #ccc;
 }
@@ -17,7 +30,7 @@ body {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     align-content: center;
     text-transform: uppercase;
@@ -26,6 +39,7 @@ h1 {
 h2 {
     font-size: 1.5em;
     text-transform: uppercase;
+    color: #cc3333;
 }
 
 span.char2 {
@@ -42,6 +56,46 @@ span.char6 {
 
 span.char8 {
     color: white;
+}
+
+
+/* Aside Section */
+
+aside section {
+  background: black;
+  color: white;
+  padding: 1em;
+  margin: 10px;
+  width: 90%; 
+  height: 300px;
+}
+  
+section {   
+list-style: none;         
+    } 
+
+ul li {
+    list-style: none;
+    align-content: flex-start;
+}
+
+a {
+    color: #fff;
+}
+    
+/* Footer */
+
+.site-footer {
+  color: white;
+  background: #ccc;
+  margin: 10px;  
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: black;
 }
 
 /* MEDIA QUERIES */
